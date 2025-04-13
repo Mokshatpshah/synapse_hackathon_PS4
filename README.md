@@ -119,11 +119,13 @@ The model accepts anonymized behavior-based inputs:
 ---
 
 
-## How To Run Locally
+## How To Run Locally##
 1.clone the repo and install Dependencies
+
 git clone <repo-url>
 cd <project-directory>
 pip install -r requirements.txt
+
 2. uvicorn app.main:app --reload
 Open the Swagger UI docs at: http://127.0.0.1:8000/docs
 3. launch the streamlit dashboard
@@ -131,7 +133,7 @@ streamlit run dashboard.py
 Visit: http://localhost:8501
 ---
 
-##  Highlights
+##  Highlights##
 
 -  Simulated realistic user behavior using rule-based virtual agents
 -  Augmented behavior sequences using CTGAN for generative realism
@@ -143,7 +145,7 @@ Visit: http://localhost:8501
 
 ---
 
-##  Tools & Technologies Used
+##  Tools & Technologies Used ##
 
 - **Python** – Core scripting and data processing
 - **Pandas / NumPy** – Data manipulation
@@ -157,7 +159,7 @@ Visit: http://localhost:8501
 
 ---
 
-##  Future Work
+##  Future Work ##
 
 -  Integrate **SHAP** for model explainability
 -  Enable **real-time session tracking** and online learning
@@ -168,18 +170,18 @@ Visit: http://localhost:8501
 
 ---
 
-##  Team & Credits
+##  Team & Credits ##
 
 This project was developed as part of the **Synapses '25 Hackathon** under Problem Statement 4: *Demographic & Behavioral Inference Without PII*.
 
-**Team Name:** *[Your Team Name]*  
-**Members:** *[Your Names]*  
-**Affiliation:** *[Your Institute / Organization]*  
+**Team Name:** *[_noobs]*  
+**Members:** *[Shah MOkshat(23123036),Swaroop Itkikar(23118077)]*  
+**Affiliation:** *[IIT Roorkee]*  
 **Year:** *2025*
 
 ---
 
-##  Extras
+##  Extras##
 
 -  Notebook for synthetic session simulation using virtual agents is included
 -  Persona predictions mapped to marketing-friendly labels
