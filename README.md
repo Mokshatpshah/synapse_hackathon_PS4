@@ -82,7 +82,7 @@ We labeled simulated sessions with:
 ---
 
 ##  Folder Structure
-.
+<pre><code> ## Folder Structure ``
 ├── app/                   # FastAPI backend
 ├── dashboard.py           # Streamlit dashboard
 ├── data_simulation/                  # Agent-based simulation and 
@@ -92,7 +92,7 @@ We labeled simulated sessions with:
 ├── requirements.txt         #dependencies require to run model
 └── README.md
 ---
-
+''' </code></pre>
 ##  Inputs to the Model
 
 The model accepts anonymized behavior-based inputs:
@@ -175,7 +175,7 @@ Visit: http://localhost:8501
 This project was developed as part of the **Synapses '25 Hackathon** under Problem Statement 4: *Demographic & Behavioral Inference Without PII*.
 
 **Team Name:** *[_noobs]*  
-**Members:** *[Shah MOkshat(23123036),Swaroop Itkikar(23118077)]*  
+**Members:** *[Shah Mokshat(23123036),Swaroop Itkikar(23118077)]*  
 **Affiliation:** *[IIT Roorkee]*  
 **Year:** *2025*
 
